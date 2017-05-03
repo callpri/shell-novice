@@ -4,15 +4,17 @@ title: Setup
 permalink: /setup/
 ---
 
-You need to download some files to follow this lesson:
+Please see [the workshop information page][workshop-setup]
+for instructions on installing Git.
 
-1. Download [shell-novice-data.zip]({{ page.root }}/data/shell-novice-data.zip) and move the file to your Desktop.
-2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called data-shell on your Desktop.
-3. Open a terminal and type:
+You will also need the gapminder dataset. Open a terminal window, copy the 
+following commands, and press enter:
 
 ~~~
-$ cd
+cd ~/Desktop
+git clone https://github.com/biologyguy/swc-data.git
 ~~~
 {: .bash}
 
-In the lesson, you will find out how to access the data in this folder.  
+[workshop-setup]: https://biologyguy.github.io/2017-05-08-NIH/#setup
+
